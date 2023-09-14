@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 
-from utils import load_ui, get_text_chunks
+from utils import load_ui, get_text_chunks, read_pdfs
 
 def main():
     load_dotenv()
